@@ -1,0 +1,187 @@
+*{
+    font-family: 'Manjari', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page-container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.navBar{
+    background-color: lightgrey;
+    height: 60px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navTitle{
+    padding-left: 20px;
+}
+
+.searchBar{
+    height: 25px;
+    width: 250px;
+    border-width: 2px solid;
+}
+
+.login{
+    background-color: steelblue;
+    color: white;
+    width: 85px;
+    height: 35px;
+    margin-right: 20px;
+    font-weight: bold;
+    box-shadow: black 3px 4px;
+}
+
+.page{
+    margin: 0 auto;
+}
+
+.page-body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px;
+    padding: 5px;
+    /* background-color: blanchedalmond; */
+}
+
+.ninjaDefinitions{
+    flex: 3;
+}
+
+.originalNinja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex: 3; */
+    /* width: 100%; */
+    margin: 10px auto;
+    padding: 20px;
+    /* background-color: lawngreen; */
+    border: black 1px solid;
+}
+
+.ninjaCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex: 3;
+    background-color: mediumblue; */
+}
+
+.ninjaHead{
+    margin: 10px;
+    padding: 5px;
+    font-weight: bolder;
+    /* background-color: palevioletred; */
+    text-align: center;
+}
+
+.noun{
+    font-style: italic;
+    /* justify-content: center; */
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    /* background-color: rebeccapurple; */
+}
+
+.plural{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+    /* background-color: skyblue; */
+}
+
+.italicNinja{
+    font-style: italic;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+.likeBox{
+    height: 25px;
+    width: 100px;
+    background-color: gold;
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: black 3px 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.definition{
+    height: 150px;
+    width: 200px;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    flex: 3;
+}
+
+.emphasis{
+    text-decoration: steelblue underline;
+    color: steelblue;
+}
+
+.dojoNinja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex: 3; */
+    /* width: 100%; */
+    margin: 10px auto;
+    padding: 20px;
+    /* background-color: lawngreen; */
+    border: black 1px solid;
+}
+
+.addDefine{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0 auto;
+    flex: 2;
+    width: 100%;
+    /* background-color: tomato; */
+}
+
+.addBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    border: black 1px solid;
+}
+
+.defByYou{
+    font-weight: 75px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.addDef{
+    height: 25px;
+    width: 150px;
+    background-color: seagreen;
+    box-shadow: black 3px 3px;
+    justify-content: center;
+}

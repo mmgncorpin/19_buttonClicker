@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manjari&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <div class="page-container">
+        <div class="navBar">
+            <!-- NavBar -->
+            <h1 class="navTitle">Dojonary</h1>
+            <input type="text" class="searchBar" name="searchBar" placeholder="Search">
+            <button class="login" onclick="login(this)">Login</button>
+        </div>
+        <div class="page">
+            <!-- Page Body -->
+            <div class="page-body">
+                <div class="ninjaDefinitions">
+                    <!-- Left Column with Definitions of Ninja -->
+                    <div class="originalNinja">
+                        <!-- Definition Card 1 -->
+                        <div class="ninjaCard">
+                            <!-- Left Column of Definition Card -->
+                            <h1 class="ninjaHead">ninja</h1>
+                            <h3 class="noun">noun</h3>
+                            <h4 class="plural">Plural: 
+                                <span class="italicNinja">ninjas</span>
+                            </h4>
+                            <button class="likeBox" onclick="likes(this)">13 likes</button>
+                        </div>
+                        <div class="definition">
+                            <!-- Right Column of Definition Card 1 -->
+                            <p>A practitioner skilled in the 
+                                <span class="emphasis">Japanese</span> art of <span class="emphasis">ninjitsu</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="dojoNinja">
+                        <!-- Definition Card 2 -->
+                        <div class="ninjaCard">
+                            <!-- Left Column of Definition Card -->
+                            <h1 class="ninjaHead">ninja</h1>
+                            <h3 class="noun">noun</h3>
+                            <h4 class="plural">Plural:
+                                <span class="italicNinja">ninjas</span>
+                            </h4>
+                            <button class="likeBox" onclick="likes(this)">37 likes</button>
+                        </div>
+                        <div class="definition">
+                            <!-- Right Column of Definition Card 2 -->
+                            <p>A <span class="emphasis">programmer</span> 
+                                who breaks down problems with 
+                                <span class="emphasis">zen</span>-like focus
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="addDefine">
+                    <!-- Right Column where you can Add Definition -->
+                    <div class="addBox">
+                        <h2 class="defByYou">Dojonary is defined by YOU</h2>
+                        <button class="addDef" onclick="remove(this)">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+    </html>
